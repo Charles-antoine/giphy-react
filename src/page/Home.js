@@ -22,8 +22,6 @@ const Home = () => {
     }
 
     const embedClick = () => {
-        console.log('YEP');
-        console.log(childRef);
         childRef.current.showPopup();
     }
 
@@ -31,7 +29,6 @@ const Home = () => {
     useEffect(()=>{
         if(querie === ''){setQuerie(querieBase);}
         fetchDatas();
-        // console.log(querie);
     },[querie])
 
 
