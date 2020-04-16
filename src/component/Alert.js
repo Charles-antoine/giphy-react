@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { TweenMax, Power2 } from 'gsap/TweenMax';
 
 
@@ -12,14 +12,6 @@ class Alert extends React.Component {
             target.style.opacity = 1;
         }})
     }
-
-
-    // componentDidUpdate() {
-    //     if (this.props.isOpen) {
-    //         // showPopup();
-    //     }
-    // }
-
 
 
     render(){

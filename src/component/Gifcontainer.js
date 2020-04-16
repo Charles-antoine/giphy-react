@@ -1,11 +1,9 @@
 import React, { useState } from "react";
 import Icon from '@material-ui/core/Icon';
 import {CopyToClipboard} from 'react-copy-to-clipboard';
-import { TweenMax, Power2 } from 'gsap/TweenMax';
 
 
 export const Gifcontainer = (props) => {
-    const [value, setValue] = useState('');
     const [copied, setCopied] = useState(false);
 
     return (
